@@ -55,6 +55,11 @@ GROUP BY request_session_id, resource_type, resource_description
 ORDER BY lock_count DESC;
 GO
 
+/* Query 05: Simple Lock Detection */
+SELECT  session_id, blocking_session_id 
+FROM sys.dm_exec_requests 
+WHERE session_id > 50;
+
 /* Query 05: Any triggers blocking logins? 
  *
  * Problem: No one can log in the system even with low resource usage.
