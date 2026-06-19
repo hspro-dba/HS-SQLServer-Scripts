@@ -1,6 +1,6 @@
 /* ---------------------------------------------
-|      DAC Toolkit PRO - HS                    |
-|      Hugo Silva Database Administrator PRO   |
+|      DAC Toolkit                             |
+|      Hugo Lima - DBA / DBRE Certified        |
 |      Copyright (C) 2022 - 2026 HS PRO        |
 |      Licensed under the MIT License.         |
 */ ---------------------------------------------
